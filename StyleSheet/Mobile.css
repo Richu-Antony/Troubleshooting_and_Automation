@@ -1,0 +1,49 @@
+/* 730px screen szie */
+@media screen and (max-width: 730px) {
+    body {
+        margin: 5rem 0 0 0;
+    }
+
+    .section-title-01 {
+        font-size: 3em;
+    }
+
+    .section-title-02 {
+        font-size: 2em;
+        /* transform: translateY(-65px); */
+    }
+
+    .home-container .info h2 {
+        font-size: 3em;
+    }
+
+    .home .home-container .info {
+        font-size: 0.6rem;
+    }
+
+    .media-icons {
+        margin-bottom: 80px;
+    }
+
+    /* Get in touch Section */
+    .get-in-touch .contact-card {
+        display: grid;
+    }
+
+    .contact-card .title {
+        font-size: 0.6rem;
+        line-height: 40px;
+    }
+
+    .contact-card .contact-btn btn {
+        font-size: 0.8rem;
+    }
+
+    .footer-container h2,
+    p,
+    a {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+}

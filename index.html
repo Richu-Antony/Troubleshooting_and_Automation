@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--========= Meta Data ============-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rica: Troubleshooting and Automation." />
+
+    <!--======== Title ===========-->
+    <title>Rica: Troubleshooting and Automation</title>
+    <link rel="icon" href="IMAGES/Logos/Lightning.png" type="image/x-icon">
+
+    <!--======= Style Sheet =======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"  type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"  type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Stylesheet/Animation.css" type="text/css">
+    <link rel="stylesheet" href="StyleSheet/Index.css" type="text/css">
+    <link rel="stylesheet" href="Stylesheet/Responsive.css" type="text/css">
+    <link rel="stylesheet" href="Stylesheet/Mobile.css" type="text/css">
+    <link rel="stylesheet" href="Stylesheet/Scrolbar.css" type="text/css">
+    <link rel="stylesheet" href="StyleSheet/Swiper-bundle.min.css"  type="text/css">
+</head>
+
+<body onload="preloadingFunction()">
+    <!--======== Loading Spinner Animation ========-->
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+
+    <!--======== Loading Box Animation ========-->
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:0.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:0.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:0.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:0.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:0.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:.7s;"></div>
+    </div>
+
+    <!--======== Content Animation ========-->
+    <div style="display: none;" id="AfterLoading" class="animate-bottom">
+
+        <!--======== Light & Dark Theme Button ========-->
+        <div class="theme-btn flex-center">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+        </div>
+
+        <!--======== Header Section ========-->
+        <header class="header">
+            <div class="nav-bar">
+                <a href="#" class="logo">
+                    <img src="IMAGES/Logos/Rica_logo.png" alt="Rica logo">
+                    <span>(P)Ltd.</span>
+                </a>
+                <div class="navigation">
+                    <div class="nav-items">
+                        <div class="nav-close-btn"></div>
+                        <a id="s1" href="#home" class="active">Home</a>
+                        <a id="s2" href="#about">About</a>
+                        <a id="s3" href="#product">Products</a>
+                        <a id="s4" href="#services">Services</a>
+                        <a id="s5" href="#gallery">Gallery</a>
+                        <a id="s6" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-menu-btn"></div>
+            </div>
+        </header><br>
+
+        <!--======== Home Section ========-->
+        <section class="home" id="home">
+            <div class="home-container">
+                <div class="media-icons">
+                    <a href="https://github.com/Richu-Antony"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mr_richard_3000"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/richu-antony-a12817200/">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="info">
+                    <h2 class="animate-charcter info-animate">Troubleshooting & Automation</h2>
+                    <h4 id="welcome">An Software and tools marketplace.</h4>
+                    <br>
+                    <h3 id=flip>
+                        <div>
+                            <div>And Productive</div>
+                        </div>
+                        <div>
+                            <div>Very Usefull</div>
+                        </div>
+                        <div>
+                            <div>Simple enough</div>
+                        </div>
+                    </h3>
+                    <p align="justify" id="desc">The software, tools and services we serve are more usefull for naive
+                        and
+                        professional users.</p><br>
+                    <p id="info-paragraph-moto" align="justify">Simplify you life be more productive
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span>By "Richu Antony"</span>
+                    </p>
+                    <a href="ASSETS/Login.php" class="btn">Download <i
+                            class="fas fa-arrow-circle-right"></i></a><br>
+                </div>
+                <div class="home-img">
+                    <img src="IMAGES/Logos/Rica_logo.png" alt="Rica logo">
+                </div>
+            </div>
+            <a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-circle-down"></i></a>
+        </section>
+    </div>
+
+    <!--======== Scroll to top button ========-->
+    <a href="#home">
+        <div class="scrollToTop-btn flex-center">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </a>
+
+    <!--======== About Section ========-->
+    <section class="about section" id="about">
+        <div class="container flex-center">
+            <h1 class="section-title-01">About This</h1>
+            <h2 class="section-title-02">About This</h2>
+            <div class="content flex-center">
+                <div class="about-img">
+                    <img src="IMAGES/T and A.jpg" alt="About">
+                </div>
+                <div class="about-info">
+                    <div class="description">
+                        <h3>Troubleshooting and Automation</h3>
+                        <h4>A Leading <span>software solutions</span> based on <span>Platforms</span></h4>
+                        <p align="justify">This website was designed and developed to provide clients with a wealth of
+                            customization possibilities as well as well-functioning software and support solutions for
+                            specializing in building lovely working environments. The optimum user experience and
+                            efficiency for everyone are what drive me to keep things clear-cut and straightforward.
+                        </p>
+                    </div>
+                    <ul class="professional-list">
+                        <li class="list-item">
+                            <h3>5+</h3>
+                            <span>Years of<br>Experience</span>
+                        </li>
+                        <li class="list-item">
+                            <h3>3K+</h3>
+                            <span>Happy<br>Customers</span>
+                        </li>
+                        <li class="list-item">
+                            <h3>5+</h3>
+                            <span>Success<br>Projects</span>
+                        </li>
+                    </ul>
+                    <a href="Assets/Requirements.txt" class="btn">Requirements <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--======== Skills Sections ========-->
+    <section class="skills section" id="product">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Products & Awards</h1>
+            <h2 class="section-title-02">Products & Awards</h1>
+                <div class="content">
+                    <div class="skills-description">
+                        <h3>Field Experience</h3>
+                        <p align="justify">For more than 5 Years our experts have been accomplishing enough with modern
+                            technologies, new generation demands in software, tools, and programming language. So we
+                            accomplish wonders in the field of web application and software.
+                        </p>
+                    </div>
+                    <div class="skills-info education-all">
+                        <!--======== Products ========-->
+                        <div class="education">
+                            <h4><label for="">Products</label></h4>
+                            <ul class="edu-list">
+                                <li class="item">
+                                    <span class="year">2022</span>
+                                    <p><span>DUORAL: Troubleshooting & Automation</span> - Website </p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2021</span>
+                                    <p><span>DUORAL: Online Movie Ticket Booking</span> - Application </p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2020</span>
+                                    <p><span>DUORAL: Online Examination Portal</span> - Web Application</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2019</span>
+                                    <p><span>DUORAL: Automation & Troubleshooting </span> - Application & Programmms
+                                    </p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2018</span>
+                                    <p><span>DUORAL: Bash </span> - Linux Scripts </p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2017</span>
+                                    <p><span>DUORAL: Application Form </span> - Application Website </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--======== Awards ========-->
+                        <div class="education">
+                            <h4><label for="">Awards</label></h4>
+                            <ul class="edu-list">
+                                <li class="item">
+                                    <span class="year">2022</span>
+                                    <p><span>Best CEO & Founder</span> - Duorl Private Limited. <br>🦹</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2021</span>
+                                    <p><span>Best Optimization</span> - National Technical Award</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2020</span>
+                                    <p><span>Best Visionary</span> - National Visionary Award <br>👀</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2019</span>
+                                    <p><span>Best Designer & Developer</span> - University of KTU</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2018</span>
+                                    <p><span>Well Efficient</span> - University of MGU</p>
+                                </li>
+                                <li class="item">
+                                    <span class="year">2017</span>
+                                    <p><span>Best Designer</span> - 4.5/5 Top Rated <br>👌</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--======== Languages ========-->
+                        <div class="education">
+                            <h4><label for="">Languages</label></h4>
+                            <ul class="bars">
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>HTML</span>
+                                        <span>100%</span>
+                                    </div>
+                                    <div class="line html"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>CSS</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="line css"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>Javascript</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="line javascript"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>Jquery</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="line jquery"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>PHP</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="line php"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>MySql</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="line mysql"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>Java</span>
+                                        <span>65%</span>
+                                    </div>
+                                    <div class="line java"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>Batch, Powershell</span>
+                                        <span>50%</span>
+                                    </div>
+                                    <div class="line batch"></div>
+                                </li>
+                                <li class="bar">
+                                    <div class="info">
+                                        <span>Bash</span>
+                                        <span>30%</span>
+                                    </div>
+                                    <div class="line bash"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--======== Highlights and experiences ========-->
+                    <div class="skills-description">
+                        <h3>Highlights & Experience</h3>
+                    </div>
+                    <div class="skills-info">
+                        <div class="experience-card">
+                            <div class="line">
+                                <div class="scanner"></div>
+                            </div>
+                            <div class="upper">
+                                <h3>Troubleshooting & Automation Website</h3>
+                                <h5>Tools | Softwares</h5>
+                                <span>2022 - Ongoing</span>
+                            </div>
+                            <div class="hr"></div>
+                            <h4 class="es"><label>Top Rated 🌟</label></h4>
+                            <p align="justify" class="es">It is the most rated and well useful service provided by
+                                DUORL and helps to
+                                do the task and operation day to day in a well efficient manner. Automation is a
+                                term for technology
+                                applications where human input is minimized.
+                            </p>
+                        </div>
+                        <div class="experience-card">
+                            <div class="line">
+                                <div class="scanner"></div>
+                            </div>
+                            <div class="upper">
+                                <h3>Online Examination Portal and Website</h3>
+                                <h5>Website | Software</h5>
+                                <span>2020 - 2021</span>
+                            </div>
+                            <div class="hr"></div>
+                            <h4 class="es"><label>Well Useful 🎯</label></h4>
+                            <p align="justify" class="es">It is the most useful service provided by DUORL to conduct
+                                the Examination
+                                and also to keep up with the current online world.
+                            </p>
+                        </div>
+                        <div class="experience-card">
+                            <div class="line">
+                                <div class="scanner"></div>
+                            </div>
+                            <div class="upper">
+                                <h3>Online Movie Ticket Booking System</h3>
+                                <h5>Web Appication | Software</h5>
+                                <span>2018 - 2019</span>
+                            </div>
+                            <div class="hr"></div>
+                            <h4 class="es"><label>Well Efficient 🙌</label></h4>
+                            <p align="justify" class="es">Entertainment is one of the most efficient ones to keep
+                                people relaxed
+                                and satisfied. due to the popularity of movie making and visual effects, there are a
+                                lot
+                                of movies are produced and made so to match movie we must have an effiecint and
+                                convenience
+                                way for the booking so that's where our project comes in.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--======== Service Section ========-->
+    <section class="services section" id="services">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Services</h1>
+            <h2 class="section-title-02">Services</h2>
+            <div class="content">
+                <div class="services-description">
+                    <h3>What our company provides</h3>
+                </div>
+                <ul class="service-list">
+                    <li class="service-container">
+                        <div class="service-card">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <h3>UI/UX Consultancy</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                        <div class="service-modal flex-center">
+                            <div class="service-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>UI/UX Consultancy</h3>
+                                <h4>What is UX consulting?</h4>
+                                <p>UX consulting helps companies improve their product's overall usability
+                                    and optimize expenses by implementing the right UX processes, methods,
+                                    and tools.</p>
+                                <h4>What we provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Establish the rights UX processes</li>
+                                    <li><i class="fas fa-check-circle"></i> Create exceptional user experiences</li>
+                                    <li><i class="fas fa-check-circle"></i> Discover new business opportunities</li>
+                                    <li><i class="fas fa-check-circle"></i> Save resources</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="service-container">
+                        <div class="service-card">
+                            <i class="fas fa-photo-film"></i>
+                            <h3>Branding & Design</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                        <div class="service-modal flex-center">
+                            <div class="service-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Branding & Design</h3>
+                                <h4>What is Brand & Design?</h4>
+                                <p>Brand Design can be define as one of the crucial marketing practices of creating
+                                    the
+                                    name, logo, design, and the symbolic elements related to the brand to create a
+                                    distinctive
+                                    identity in comparison to the other brands in the market and also providing
+                                    impetus to the
+                                    product differentiation.
+                                </p>
+                                <h4>What we provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Logo Design</li>
+                                    <li><i class="fas fa-check-circle"></i> Banner Design</li>
+                                    <li><i class="fas fa-check-circle"></i> Visual Identity Packages</li>
+                                    <li><i class="fas fa-check-circle"></i> Business Cards & Business Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="service-container">
+                        <div class="service-card">
+                            <i class="fas fa-file-code"></i>
+                            <h3>Development & Service</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                        <div class="service-modal flex-center">
+                            <div class="service-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Development & Services</h3>
+                                <h4>What is Development & Services?</h4>
+                                <p>The purpose of development is a rise in the level and quality of life of the
+                                    population,
+                                    and the creation or expansion of local regional income and employment
+                                    opportunities, without
+                                    damaging the resources of the environment. Development is visible and useful,
+                                    not necessarily
+                                    immediately, and includes an aspect of quality change and the creation of
+                                    conditions for a
+                                    continuation of that change.
+                                </p>
+                                <h4>What we provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Applicaton development</li>
+                                    <li><i class="fas fa-check-circle"></i> Testing</li>
+                                    <li><i class="fas fa-check-circle"></i> Correction</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="service-container">
+                        <div class="service-card">
+                            <i class="fas fa-align-left"></i>
+                            <h3>Maintenance & Update</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i>
+                            </div>
+                        </div>
+                        <div class="service-modal flex-center">
+                            <div class="service-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Maintenance & Update</h3>
+                                <h4>What is Maintenance & Update?</h4>
+                                <p>We provide the best maintenance service and update service based on customer
+                                    demand and based on customer feedback.
+                                </p>
+                                <h4>What we provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i> Bug Fix</li>
+                                    <li><i class="fas fa-check-circle"></i> Improvement based on feedback</li>
+                                    <li><i class="fas fa-check-circle"></i> Up to date..</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--======== Portfolio Section ========-->
+    <section class="portfolio section" id="gallery">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Work/Gallery</h1>
+            <h1 class="section-title-02">Work/Gallery</h1>
+            <div class="content">
+                <div class="img-container">
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Matrix.jpg" alt="Matrix">
+                        <!-- <img src="https://source.unsplash.com/1000x800"> -->
+                        <span>Matrix</span>
+                    </div>
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Digital.jpg" alt="Digital">
+                        <!-- <img src="https://source.unsplash.com/1000x802"> -->
+                        <span>Digital</span>
+                    </div>
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Ai.jpg" alt="Ai">
+                        <!-- <img src="https://source.unsplash.com/1000x804"> -->
+                        <span>AI</span>
+                    </div>
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Razen.jpg" alt="Razen">
+                        <!-- <img src="https://source.unsplash.com/1000x806"> -->
+                        <span>Razen</span>
+                    </div>
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Win11.jpg" alt="Windows 11">
+                        <!-- <img src="https://source.unsplash.com/1000x808"> -->
+                        <span>Win 11</span>
+                    </div>
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Unix.jpg" alt="Unix">
+                        <!-- <img src="https://source.unsplash.com/1000x810"> -->
+                        <span>UNIX</span>
+                    </div>
+                    <div class="img-box">
+                        <img src="IMAGES/Gallery/Change.jpg" alt="Change">
+                        <!-- <img src="https://source.unsplash.com/1000x812"> -->
+                        <span>Change</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--======== Get in touch ========-->
+        <div class="get-in-touch sub-section">
+            <div class="container">
+                <div class="content flex-center">
+                    <div class="contact-card flex-center">
+                        <div class="title">
+                            <h4>Let's talk</h4>
+                            <h3>About Your</h3>
+                            <h2>Next Project</h2>
+                        </div>
+                        <div class="contact-btn">
+                            <a href="https://github.com/Richu-Antony" class="btn">Get In touch
+                                <i class="fas fa-paper-plane"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--======== Our Clients ========-->
+        <div class="our-client sub-section">
+            <div class="container flex-center">
+                <h1 class="section-title-01">Our Clients</h1>
+                <h2 class="section-title-02">Our Clients</h2>
+                <div class="content">
+                    <div class="swiper client-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide flex-center">
+                                <div class="client-img">
+                                    <img src="IMAGES/Partners/Google.png" alt="Google">
+                                </div>
+                                <div class="client-details">
+                                    <p>Parent Company: Alphabet</p>
+                                    <h3>Google</h3>
+                                    <span>Marketing: With our smart, easy ads, you can reach more relevant customers
+                                        within your budget. Plus,
+                                        we’ll help you improve your ads over time to get more of the results that matter
+                                        to your business.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide flex-center">
+                                <div class="client-img">
+                                    <img src="IMAGES/Partners/Amazon.jpg" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <p>Parent Company: Amazon</p>
+                                    <h3>Amazon</h3>
+                                    <span>Distribution: Amazon.com, Inc. is an American multinational technology company
+                                        which focuses on
+                                        e-commerce, cloud computing, digital streaming, and artificial intelligence. It
+                                        has been referred
+                                        to as "one of the most influential economic and cultural forces in the world",
+                                        and is one of the world's
+                                        most valuable brands.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide flex-center">
+                                <div class="client-img">
+                                    <img src="IMAGES/Partners/windows11.jpg" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <p>Parent Comapny: Microsoft</p>
+                                    <h3>Windows 11</h3>
+                                    <span>Focus: Windows 11 is the latest major release of Microsoft's Windows NT
+                                        operating system, released in October
+                                        2021. It is a free upgrade to its predecessor, Windows 10 (2015), available for
+                                        any Windows 10 devices that meet the new Windows 11 system requirements.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="swiper-slide flex-center">
+                                <div class="client-img">
+                                    <img src="IMAGES/Partners/Playstation.jpg" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <p>Parent Company: Sony </p>
+                                    <h3>Playstation 5</h3>
+                                    <span>Gaming: PlayStation (Japanese: プレイステーション, Hepburn: Pureisutēshon, officially
+                                        abbreviated as PS) is a
+                                        video game brand that consists of five home video game consoles, two handhelds,
+                                        a media center, and a smartphone,
+                                        as well as an online service and multiple magazines.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class="fas fs-chevron-right"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="fas fs-chevron-left"></i>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--======== Contact Section ========-->
+    <section class="contact section" id="contact">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Contact Me</h1>
+            <h2 class="section-title-02">Contact Me</h2>
+            <div class="content">
+                <div class="contact-left">
+                    <h2>Let's Discuss your project</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-phone"></i> Phone</h3>
+                            <span>+91 8985458659</span>
+                        </li>
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-envelope"></i> Email Address</h3>
+                            <span><a href="mailto: richuantony38@gmail.com">richuantonny38@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-map-marked-alt"></i> Official Address</h3>
+                            <span>Zone street, Kottayam P.O, Chanacherry, 686596 </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-right">
+                    <p>We always open to discussing product <br><span>design work or partnerships.</span></p>
+                    <form action="ASSETS/Contact.php" method="POST" enctype="multipart/form-data"
+                        name="FeedbackForm" class="contact-form">
+                        <div class="first-row">
+                            <input type="text" placeholder="Name" name="client_name" maxlength="30" required>
+                        </div>
+                        <div class="second-row">
+                            <input type="email" placeholder="Email" name="client_emailid" maxlength="30" required>
+                            <input type="text" placeholder="Subject" name="client_subject" maxlength="50" required>
+                        </div>
+                        <div class="third-row">
+                            <textarea id="" rows="5" placeholder="Message" name="client_message" maxlength="255"
+                                required></textarea>
+                        </div>
+                        <button class="btn" type="submit" name="submitbtn">Send Message
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--======== Footer Section ========-->
+    <footer>
+        <div class="footer-container">
+            <div class="about group">
+                <h2>Rica</h2>
+                <p>An software developing Company</p>
+                <p><a href="#about">About The Company</a></p>
+            </div>
+            <div class="hr"></div>
+            <div class="info group">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footer-copyright group">
+                    <p>©️ 2022 by Rica Private Limited. All rights reserved.</p>
+                    <a id="Easteregg" href="ASSETS/History.html">Ester egg</a>
+                </div>
+            </div>
+            <div class="hr"></div>
+            <div class="follow group">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://github.com/Richu-Antony"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/mr_richard_3000"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/richu-antony-a12817200/"><i
+                                class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--======== External Scripts ========-->
+    <script src="JavaScript/Swiper-bundle.min.js"></script>
+    <script src="JavaScript/Index.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+    <!-- <script>
+        // Smooth Scroll effect
+        $(document).ready(function () {
+            $("a").on('click', function (event) { // Add smooth scrolling to all links
+                if (this.hash !== "") {                 // Make sure this.hash has a value before overriding default behavior
+                    event.preventDefault();               // Prevent default anchor click behavior
+                    var hash = this.hash;                     // Store hash
+                    $('html, body').animate({                   // Using jQuery's animate() method to add smooth page scroll
+                        scrollTop: $(hash).offset().top
+                    }, 800,
+                        function () {                   // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                            window.location.hash =
+                                hash;                  // Add hash (#) to URL when done scrolling (default click behavior)
+                        });
+                }
+            });
+        });
+    </script> -->
+
+</body>
+
+</html>

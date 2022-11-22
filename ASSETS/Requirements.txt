@@ -1,0 +1,18 @@
+                                                        # System requirements
+
+Your device must be running Windows 10, version 2004 or later, to upgrade. Free updates are available through Windows Update in Settings>Update and Security.
+
+Processor:      1 gigahertz (GHz) or faster with 2 or more cores 
+                on a compatible 64-bit processor or System on a Chip (SoC).
+
+RAM:	        8 gigabyte (GB) and more.
+
+Storage:        512 GB or larger storage device.
+
+System:         Firmware UEFI, Secure Boot capable. 
+
+Graphics card:	Compatible with DirectX 12 or later with WDDM 2.0 driver.
+
+Display:    	High definition (720p) display that is greater than 9” diagonally, 8 bits per color channel.
+
+Internet:       Internet connection and Rica account.
